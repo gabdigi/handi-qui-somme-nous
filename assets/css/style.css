@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 80px 0 110px 0;
+}
+
+h1{
+    font-family: 'gobold_bolditalic';
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'gobold_boldregular';
+}   
+
+p, span{
+    font-family: 'corpid_e1s_cdregular';
+    font-size: 1rem;
+}
+
+.titre2 {
+    font-size: 48px;
+}
+
+.pb-32px {
+    padding-bottom: 32px;
+
+}
+
+/******************************** HEADER ****************************************************************/
+
+header {
+    height: 200px;
+    background-color: purple;
+}
+
+/******************************** HEADER ****************************************************************/
+
+
+/******************************** HERO LIBERE TON PONTENTIEL ********************************************/
+
+.hero {
+    margin: 0;
+    height: 700px;
+    width: auto;
+    background: url("../../assets/img/handiquipement-photo-1.jpg") 0% 0% no-repeat padding-box;
+    background-size: cover;
+    background-color: bisque;
+    background-position: center;
+}
+
+.hero-div{ 
+    height: 100%;
+    background-color: #00000080;
+    padding: 0 7.5%;
+}
+
+.hero-h1 {
+    font-size: 118px;
+}
+
+.hero-h2 {
+    font-size: 55px;
+    margin: 0 0 52px 0;
+
+}
+
+.hero-div-button button{
+    height: 70px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'corpid_e1s_cdheavy';
+}
+
+.hero-div-button-gauche {
+    background-color: #00000000;
+    border-color: #ffffffb9;
+    margin: 0 30px 10px 0;
+}
+
+.hero-div-button-droite {
+    background-color: #3A417F;
+    margin-bottom: 5.5%;
+}
+/******************************** HERO LIBERE TON PONTENTIEL ********************************************/
+
+/****************************************** MAIN *******************************************************/
+
+
+main {
+    display: block;
+    max-width: 1640px;
+    margin: auto;
+}
+
+/****************************************** MAIN *******************************************************/
+
+/******************************** ARTICLE POPULAIRES ********************************************/
+
+.article-liste {
+    display: flex;
+   
+
+}
+
+.article-titre-display {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0 0;
+}
+
+.article-div {
+    max-height: 542.57px;
+    max-width: 397.36px;
+    margin: 0 20px 0 0;
+}
+
+.article-div-banner {
+    height: 48px;
+    background-color: #EDEDED;
+    margin: auto;
+}
+
+.article-div-image img{
+    height: 497px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 80% 50%;
+}
+
+/********* DESCRIPTIONS *********/
+
+.article-div-description-prix {
+    font-size: 35px;
+
+}
+
+
+/******************************** ARTICLE POPULAIRES ********************************************/
+
+
+
+/******************************** RECHERCHE TON HANDISPORT **************************************/
+
+.recherche-list ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recherche-list ul li {
+    padding-right: 20px;
+    
+
+}
+
+.sport {
+    height: 238px;
+    width: 190px;
+    border-radius: 47px;
+    background-color: #F2F7FB;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 35px;
+}
+
+.sport:hover {
+    background-color: #E3F2FD;
+    border: 3px solid #3A417F;
+}
+
+.voir-tout {
+    height: 238px;
+    width: 190px;
+    border-radius: 47px;
+    background-color: #384183;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 35px;
+}
+
+.recherche-list ul li a img{
+    height: 80px;
+    width: auto;
+
+}
+
+.recherche-list span{
+    text-decoration: none;
+    padding: 36px 0 0 0;
+    font-size: 21px;
+
+}
+
+
+/******************************** RECHERCHE TON HANDISPORT **************************************/

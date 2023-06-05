@@ -1,0 +1,89 @@
+/******************************* générale pour tout la page ************************************/
+
+.padding-interieure {
+    padding: 0 7.5%;
+}
+
+
+
+
+/******************************** HERO LIBERE TON PONTENTIEL ********************************************/
+
+.hero {
+    margin: 0;
+    height: 700px;
+    width: 100%;
+    background: url("../../assets/img/handisport_basket.png") 0% 0% no-repeat padding-box;
+    background-size: cover;
+    background-color: bisque;
+    background-position: center;
+}
+
+.hero-div { 
+    height: 100%;
+    background-color: #00000080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-h1 {
+    font-size: 7.375rem;
+    text-align: center;
+}
+/******************************** EQUIPE ********************************************/
+
+.equipe {
+    margin: 0;
+    padding: 50px 7.5%;
+    height: 100%;
+    width: 100%;
+    background: url("../../assets/img/salle_de_sport.jpg") 0% 0% no-repeat padding-box;
+    background-size: cover;
+    background-color: bisque;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/****************************************** AMBASSADEURS *******************************************************/
+
+.ambassadeurs {
+    margin: 0;
+    padding: 50px 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.ambassadeurs img {
+    height: 600px;
+    width: 300px;
+    object-fit: cover;
+}
+
+/****************************************** PARTENAIRES*******************************************************/
+
+.partenaires {
+    margin: 0;
+    padding: 50px 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.partenaires img {
+    height: 600px;
+    width: 300px;
+    object-fit: cover;
+}
