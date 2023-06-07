@@ -31,6 +31,27 @@
     font-size: 7.375rem;
     text-align: center;
 }
+/******************************** VALEURS ********************************************/
+
+.valeurs {
+    margin: 0;
+    padding: 50px 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.valeurs img {
+    height: 600px;
+    width: 300px;
+    object-fit: cover;
+
+}
+
 /******************************** EQUIPE ********************************************/
 
 .equipe {
@@ -45,7 +66,28 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+/****************************************** SERVICES *************************************************************/
+
+.services {
+    margin: 0;
+    padding: 50px 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.services img {
+    height: 600px;
+    width: 300px;
+    object-fit: cover;
+
 }
 
 /****************************************** AMBASSADEURS *******************************************************/
@@ -58,7 +100,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
 
 }
 
@@ -78,12 +120,12 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
 .partenaires img {
-    height: 600px;
-    width: 300px;
-    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
 }
